@@ -1043,10 +1043,6 @@ app.use((err: any, req: Request, res: Response, next: any) => {
   next(err);
 });
 
-if (!process.env.VERCEL) {
-  startServer();
-}
-
 export default app;
 
 export default app;
