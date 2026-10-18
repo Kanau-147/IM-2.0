@@ -1,4 +1,4 @@
-import app from '../server';
+
 import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import path from 'path';
